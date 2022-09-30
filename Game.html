@@ -38,10 +38,7 @@
 h1, footer {
     text-align: center;
 }
-footer>a, footer>a:visited {
-    text-decoration: none;
-    color: #555;
-}
+
 </style>
 <script>
 function init() {
@@ -51,6 +48,10 @@ function init() {
                         loc + '?profile=css3';
   document.getElementById("vLink1").setAttribute("href", HTMLvalidLinkStr);
   document.getElementById("vLink2").setAttribute("href", CSSvalidLinkStr);
+}
+footer>a, footer>a:visited {
+    text-decoration: none;
+    color: #555;
 }
 window.onload = init;
 </script>
