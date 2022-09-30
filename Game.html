@@ -2,8 +2,27 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Game</title>
+<title>About Me</title>
 <style>
+h1, footer {
+    text-align: center;
+}
+h2, section {
+  text-align: left;
+  font-size: 18px;
+}
+
+h3, section {
+  text-align: -20 right;
+  font-size: 18px;
+}
+footer hr {
+    margin-bottom: 20px;
+    clear: both;
+    text-align: center;
+    margin-top: 40px;
+}
+
 
 /* Set background color for nav bar */
 .topnav {
@@ -34,9 +53,9 @@
   color: white;
   opacity: 100%;
 }
-
-h1, footer {
-    text-align: center;
+footer>a, footer>a:visited {
+    text-decoration: none;
+    color: #555;
 }
 
 </style>
@@ -49,25 +68,21 @@ function init() {
   document.getElementById("vLink1").setAttribute("href", HTMLvalidLinkStr);
   document.getElementById("vLink2").setAttribute("href", CSSvalidLinkStr);
 }
-footer>a, footer>a:visited {
-    text-decoration: none;
-    color: #555;
-}
 window.onload = init;
 </script>
 </head>
 <body>
-<h1>2048</h1>
-
 <div class="topnav">
-  <a href="https://annaban12.github.io/Website/">Home</a>
-  <a href="aboutme.html">About Me</a>
+  <a href="index.html">Home</a>
+  <a class="active" href="aboutme.html">About Me</a>
   <a href="Resume.html">Resume</a>
   <a href="Other.html">Other</a>
-  <a class="active" href="Game.html">Game</a>
+  <a href="Game.html">Game</a>
 </div>
+<h1>About Me</h1>
 
 <footer>
+  <hr>
 <a id="vLink1"><strong> HTML </strong> Valid! </a> |
 <a id="vLink2"><strong> CSS </strong> Valid! </a>
 </footer>
