@@ -11,6 +11,40 @@ footer>a, footer>a:visited {
     text-decoration: none;
     color: #555;
 }
+
+/* Set background color for nav bar */
+.topnav {
+  background-color: #ffcc00;
+  overflow: hidden;
+  opacity: 100%;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: rgb(253, 253, 253);
+  color: #ffcc00;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #b38f00;
+  color: white;
+  opacity: 100%;
+}
+footer>a, footer>a:visited {
+    text-decoration: none;
+    color: #555;
+}
 </style>
 <script>
 function init() {
@@ -26,6 +60,14 @@ window.onload = init;
 </head>
 <body>
 <h1>Title</h1>
+
+<div class="topnav">
+  <a href="https://annaban12.github.io/Website/">Home</a>
+  <a href="aboutme.html">About Me</a>
+  <a href="Resume.html">Resume</a>
+  <a href="Other.html">Other</a>
+  <a class="active" href="Game.html">Game</a>
+</div>
 
 <footer>
 <a id="vLink1"><strong> HTML </strong> Valid! </a> |
