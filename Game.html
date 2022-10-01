@@ -98,13 +98,13 @@ footer>a, footer>a:visited {
 				// THE GAME HAS BEEN CREATED
 				function onCreate() {
 					// listeners for WASD keys
-					upKey = game.input.keyboard.addKey(Phaser.Keyboard.Wkey);
+					upKey = game.input.keyboard.addKey(Phaser.Keyboard.W);
 					upKey.onDown.add(moveUp,this);
-    					downKey = game.input.keyboard.addKey(Phaser.Keyboard.Skey);
+    					downKey = game.input.keyboard.addKey(Phaser.Keyboard.S);
     					downKey.onDown.add(moveDown,this);
-    					leftKey = game.input.keyboard.addKey(Phaser.Keyboard.Akey);
+    					leftKey = game.input.keyboard.addKey(Phaser.Keyboard.A);
     					leftKey.onDown.add(moveLeft,this);
-    					rightKey = game.input.keyboard.addKey(Phaser.Keyboard.Dkey);
+    					rightKey = game.input.keyboard.addKey(Phaser.Keyboard.D);
     					rightKey.onDown.add(moveRight,this);
     					// sprite group declaration
 					tileSprites = game.add.group();
