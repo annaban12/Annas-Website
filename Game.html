@@ -63,10 +63,10 @@ footer>a, footer>a:visited {
 				// this is the group which will contain all tile sprites
 				var tileSprites;
 				// variables to handle keyboard input
-				var WKey;
-				var SKey;
-				var AKey;
-				var DKey;
+				var upKey;
+				var downKey;
+				var leftKey;
+				var rightKey;
 				// colors to tint tiles according to their value
 				var colors = {
 					2:0xFFFFFF,
@@ -98,13 +98,13 @@ footer>a, footer>a:visited {
 				// THE GAME HAS BEEN CREATED
 				function onCreate() {
 					// listeners for WASD keys
-					upKey = game.input.keyboard.addKey(Phaser.Keyboard.upKey);
+					upKey = game.input.keyboard.addKey(Phaser.Keyboard.Wkey);
 					upKey.onDown.add(moveUp,this);
-    					downKey = game.input.keyboard.addKey(Phaser.Keyboard.downKey);
+    					downKey = game.input.keyboard.addKey(Phaser.Keyboard.Skey);
     					downKey.onDown.add(moveDown,this);
-    					leftKey = game.input.keyboard.addKey(Phaser.Keyboard.leftKey);
+    					leftKey = game.input.keyboard.addKey(Phaser.Keyboard.Akey);
     					leftKey.onDown.add(moveLeft,this);
-    					rightKey = game.input.keyboard.addKey(Phaser.Keyboard.rightKey);
+    					rightKey = game.input.keyboard.addKey(Phaser.Keyboard.Dkey);
     					rightKey.onDown.add(moveRight,this);
     					// sprite group declaration
 					tileSprites = game.add.group();
