@@ -63,10 +63,10 @@ footer>a, footer>a:visited {
 				// this is the group which will contain all tile sprites
 				var tileSprites;
 				// variables to handle keyboard input
-				var upKey;
-				var downKey;
-				var leftKey;
-				var rightKey;
+				var WKey;
+				var SKey;
+				var AKey;
+				var DKey;
 				// colors to tint tiles according to their value
 				var colors = {
 					2:0xFFFFFF,
@@ -98,13 +98,13 @@ footer>a, footer>a:visited {
 				// THE GAME HAS BEEN CREATED
 				function onCreate() {
 					// listeners for WASD keys
-					upKey = game.input.keyboard.addKey(Phaser.Keyboard.W);
+					upKey = game.input.keyboard.addKey(Phaser.Keyboard.upKey);
 					upKey.onDown.add(moveUp,this);
-    					downKey = game.input.keyboard.addKey(Phaser.Keyboard.S);
+    					downKey = game.input.keyboard.addKey(Phaser.Keyboard.downKey);
     					downKey.onDown.add(moveDown,this);
-    					leftKey = game.input.keyboard.addKey(Phaser.Keyboard.A);
+    					leftKey = game.input.keyboard.addKey(Phaser.Keyboard.leftKey);
     					leftKey.onDown.add(moveLeft,this);
-    					rightKey = game.input.keyboard.addKey(Phaser.Keyboard.D);
+    					rightKey = game.input.keyboard.addKey(Phaser.Keyboard.rightKey);
     					rightKey.onDown.add(moveRight,this);
     					// sprite group declaration
 					tileSprites = game.add.group();
@@ -361,10 +361,10 @@ footer>a, footer>a:visited {
 		</p>
 	</h2>
 	
-	<footer>
-		<hr>
+<footer>
+	<hr>
 	<a id="vLink1"><strong> HTML </strong> Valid! </a> |
 	<a id="vLink2"><strong> CSS </strong> Valid! </a>
-	</footer>
+</footer>
 </body>
 </html>
