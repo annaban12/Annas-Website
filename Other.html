@@ -118,11 +118,11 @@ window.onload = init;
   function closeNav() {
     document.getElementById("mySidenav").style.width="0";
   }
-
+  
   var dropdown = document.getElementsByClassName("dropdown-btn");
-var i;
-
-for (i = 0; i < dropdown.length; i++) {
+  var i;
+  
+  for (i = 0; i < dropdown.length; i++) {
   dropdown[i].addEventListener("click", function() {
     this.classList.toggle("active");
     var dropdownContent = this.nextElementSibling;
@@ -132,7 +132,7 @@ for (i = 0; i < dropdown.length; i++) {
       dropdownContent.style.display = "block";
     }
   });
-}
+  }
 </script>
 
 <h1>Other Site</h1>
