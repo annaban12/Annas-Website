@@ -48,7 +48,7 @@ nav {
 }
 
 section {
-  background-image: url("/Users/998052/Projects/Website/Media/Dolphin-logo.svg"); 
+  background-image: url("Media/Dolphin-logo.svg"); 
   background-repeat: no-repeat;
   background-size: contain;
 }
