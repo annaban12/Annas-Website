@@ -40,10 +40,7 @@ header {
 nav {
   background: #d8d8d8; 
   font-weight: bold;
-  float: left;
-  height: 420px;
-  padding-right: 24px;
-  margin-right: 10px;
+  text-align: center;
   opacity: 0.8;
 }
 
