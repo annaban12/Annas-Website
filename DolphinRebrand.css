@@ -30,7 +30,7 @@ h1 {
 }
 
 h2 ~ p {
-  font-style: arial, helvetica, geneva, sans-serif;
+  font-style: helvetica
 }
 P {
   width: 150px;
@@ -84,18 +84,12 @@ section {
 }
 
 #img-rotate {
-  z-index: -1;
   position: relative;
-  -ms-transform: rotate(345deg); /* Microsoft Edge */
-  -webkit-transform: rotate(345deg); /* Chrome and Safari */
   transform: rotate(345deg);
 }
 
 #video-rotate {
-  z-index: -1;
   position: relative;
-  -ms-transform: rotate(15deg); /* Microsoft Edge */
-  -webkit-transform: rotate(15deg); /* Chrome and Safari */
   transform: rotate(15deg);
 }
 
@@ -129,8 +123,6 @@ section {
   padding: 5px 5px;
   border-radius: 5px;
   box-shadow: 5px 5px 5px #888888;
-  -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
-  -moz-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
 }
 
