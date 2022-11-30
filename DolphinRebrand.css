@@ -1,6 +1,4 @@
-/* STYLE SHEET FOR INDEX.HTM */
-
-
+/* STYLE SHEET FOR Rebrand.html */
 
 article {	
   padding: 10px;
@@ -31,6 +29,20 @@ h1 {
   margin-bottom: 0px; 
 }
 
+h2 ~ p {
+  font-style: arial, helvetica, geneva, sans-serif;
+}
+P {
+  width: 150px;
+  height: 25px;
+  background: #add8e6;
+  transition: width 1.5s, transform 1.5s;
+}
+
+p:hover {
+  width: 200px;
+}
+
 header {
   border-bottom-style: solid;
   border-bottom-width: 5px;
@@ -41,7 +53,7 @@ nav {
   background: #d8d8d8; 
   font-weight: bold;
   float: left;
-  height: 420px;
+  height: 450px;
   padding-right: 24px;
   margin-right: 10px;
   opacity: 0.8;
@@ -51,6 +63,8 @@ section {
   background-image: url("Media/Dolphin-logo.svg"); 
   background-repeat: no-repeat;
   background-size: contain;
+  resize: both;
+  overflow: auto;
 }
 
 .floatright {
@@ -67,6 +81,69 @@ section {
   border-radius: 5px;
   text-decoration: none;
   box-shadow: 5px 5px 5px #888888;
+}
+
+#img-rotate {
+  z-index: -1;
+  position: relative;
+  -ms-transform: rotate(345deg); /* Microsoft Edge */
+  -webkit-transform: rotate(345deg); /* Chrome and Safari */
+  transform: rotate(345deg);
+}
+
+#video-rotate {
+  z-index: -1;
+  position: relative;
+  -ms-transform: rotate(15deg); /* Microsoft Edge */
+  -webkit-transform: rotate(15deg); /* Chrome and Safari */
+  transform: rotate(15deg);
+}
+
+#drop-menu {
+  width: 150px;
+  cursor: pointer;
+  display: block;
+  border: 2px solid #a1a1a1;
+  padding: 5px;
+  height: 20px;
+  max-height: 20px;
+  background: #add8e6;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px #888888;
+  font-family: oregonfont;
+  font-weight: bold;
+  font-size: 85%;
+  color: #0000a0;
+}
+
+#drop-menu:hover {
+  border: 3px solid #bababa;
+}
+#drop-menu:hover .sub-menu {
+  display: inline-block;
+}
+
+.sub-menu {
+  display: none;
+  width: 150px;
+  padding: 5px 5px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px #888888;
+  -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.sub-menu li {
+  list-style-type: none;
+  display: block;
+  border: 2px solid #add8e6;
+  padding: 2px 5px;
+  background: #d8d8d8;
+  border-radius: 5px;
+}
+.sub-menu li:hover {
+  border: 3px solid #bababa;
 }
 
 
