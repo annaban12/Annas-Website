@@ -128,6 +128,53 @@ footer>a, footer>a:visited {
     text-decoration: none;
     color: #555;
 }
+
+#drop-menu {
+  width: 150px;
+  cursor: pointer;
+  display: block;
+  border: 2px solid #a1a1a1;
+  padding: 5px;
+  height: 20px;
+  max-height: 20px;
+  background: #add8e6;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px #888888;
+  font-family: oregonfont;
+  font-weight: bold;
+  font-size: 85%;
+  color: #0000a0;
+}
+
+#drop-menu:hover {
+  border: 3px solid #bababa;
+}
+#drop-menu:hover .sub-menu {
+  display: inline-block;
+}
+
+.sub-menu {
+  display: none;
+  width: 150px;
+  padding: 5px 5px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px #888888;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.sub-menu li {
+  list-style-type: none;
+  display: block;
+  border: 2px solid #add8e6;
+  padding: 2px 5px;
+  background: #d8d8d8;
+  border-radius: 5px;
+}
+
+.sub-menu li:hover {
+  border: 3px solid #bababa;
+}
+
 </style>
 <script>
 function init() {
@@ -150,6 +197,14 @@ window.onload = init;
   <a class="active" href="Test.html">Test</a>
   <a href="Rebrand.html">Personal Rebrand</a>
   <a href="https://acrisafulli.github.io/atechcapstone/">Project</a>
+  <div class="floatright" id="drop-menu">
+    Choose a search engine
+    <ul class="sub-menu">
+        <li><a href="FirstJavaScript.html">First JavaScript</a></li>
+        <li><a href="http://www.google.com"> Google</a></li>
+        <li><a href="http://www.yahoo.com">Yahoo!</a></li>
+    </ul>
+  </div>
 </div>
 
 <h1>Test Page</h1>
