@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>99 Buckets</title>
 <meta charset="utf-8">
+<title>Planets</title>
 <style>
 h1, footer {
-  text-align: center;
+    text-align: center;
 }
 footer>a, footer>a:visited {
-  text-decoration: none;
-  color: #555;
+    text-decoration: none;
+    color: #555;
 }
 
 .topnav {
@@ -99,8 +99,18 @@ footer>a, footer>a:visited {
   margin: 10px;
   overflow: visible;
 }
-
 </style>
+<script>
+function init() {
+  var loc = window.location.href;
+  var HTMLvalidLinkStr = 'http://validator.w3.org/check?uri=' + loc;
+  var CSSvalidLinkStr = 'http://jigsaw.w3.org/css-validator/validator?uri=' +
+                        loc + '?profile=css3';
+  document.getElementById("vLink1").setAttribute("href", HTMLvalidLinkStr);
+  document.getElementById("vLink2").setAttribute("href", CSSvalidLinkStr);
+}
+window.onload = init;
+</script>
 </head>
 <body>
 
@@ -109,50 +119,21 @@ footer>a, footer>a:visited {
   <a class="active" href="Ninetynine.html">99 Buckets</a>
   <a href="Planets.html">Planets</a>
 </div>
-
+  
 <div class="floatright" id="drop-menu">
   JavaScript Lesson Pages
   <ul class="sub-menu">
-      <li><a href="Ninetynine.html">99 Buckets</a></li>
-      <li><a href="Planets.html">Planets</a></li>
-      <li><a href="http://www.yahoo.com">Yahoo!</a></li>
+    <li><a href="Ninetynine.html">99 Buckets</a></li>
+    <li><a href="Planets.html">Planets</a></li>
+    <li><a href="http://www.yahoo.com">Yahoo!</a></li>
   </ul>
 </div>
 
-<h1>99 Buckets of Worms on the Hill</h1>
+<h1>Planets</h1>
 
-<script>
-// substitute your favorite drink below
-var drink = "worms";
-var lyrics = "";
-var cans = 99;
-while (cans > 0) {
-	lyrics = lyrics + cans + " buckets of " + drink + " on the hill <br>";
-	lyrics = lyrics + cans + " buckets of " + drink + "<br>";
-	lyrics = lyrics + "kick one down, knock it around, <br>";
-	if (cans > 1) {
-		lyrics = lyrics + (cans-1) + " buckets of " + drink + " on the hill <br>";
-	}
-	else {
-		lyrics = lyrics + "No more buckets of " + drink + " on the hill <br>";
-	}
-	cans = cans - 1;
-}
-document.write(lyrics);
-
-function init() {
-    var loc = window.location.href;
-    var HTMLvalidLinkStr = 'http://validator.w3.org/check?uri=' + loc;
-    var CSSvalidLinkStr = 'http://jigsaw.w3.org/css-validator/validator?uri=' +
-                          loc + '?profile=css3';
-    document.getElementById("vLink1").setAttribute("href", HTMLvalidLinkStr);
-    document.getElementById("vLink2").setAttribute("href", CSSvalidLinkStr);
-  }
-  window.onload = init;
-</script>
 <footer>
-  <a id="vLink1"><strong> HTML </strong> Valid! </a> |
-  <a id="vLink2"><strong> CSS </strong> Valid! </a>
-  </footer>
+<a id="vLink1"><strong> HTML </strong> Valid! </a> |
+<a id="vLink2"><strong> CSS </strong> Valid! </a>
+</footer>
 </body>
 </html>
