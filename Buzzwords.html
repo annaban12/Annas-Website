@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Planets</title>
+<title>Phrase-o-Matic</title>
 <style>
 h1, footer {
     text-align: center;
@@ -10,43 +10,6 @@ h1, footer {
 footer>a, footer>a:visited {
     text-decoration: none;
     color: #555;
-    text-align: center;
-}
-
-h2 {
-  color: green;
-  font-size: 20px;
-  text-align: center;
-  margin: 2px;
-}
-
-#greenplanet {
-  text-align: center;
-
-}
-
-h3 {
-  color: red;
-  font-size: 20px;
-  text-align: center;
-  margin: 2px;
-}
-
-#redplanet {
-  text-align: center;
-
-}
-
-h4 {
-  color: blue;
-  font-size: 20px;
-  text-align: center;
-  margin: 2px;
-}
-
-#blueplanet {
-  text-align: center;
-
 }
 
 .topnav {
@@ -137,13 +100,6 @@ h4 {
   overflow: visible;
 }
 
-footer hr {
-    margin-bottom: 20px;
-    clear: both;
-    text-align: center;
-    margin-top: 40px;
-}
-
 </style>
 <script>
 function init() {
@@ -154,11 +110,7 @@ function init() {
   document.getElementById("vLink1").setAttribute("href", HTMLvalidLinkStr);
   document.getElementById("vLink2").setAttribute("href", CSSvalidLinkStr);
 }
-
 window.onload = init;
-var planet = document.getElementById("greenplanet");
-planet.innerHTML = "Red alert: hit by phaser fire!";
-
 </script>
 </head>
 <body>
@@ -166,7 +118,8 @@ planet.innerHTML = "Red alert: hit by phaser fire!";
 <div class="topnav">
   <a href="index.html">Home</a>
   <a href="Ninetynine.html">99 Buckets</a>
-  <a class="active" href="Planets.html">Planets</a>
+  <a href="Planets.html">Planets</a>
+  <a class="active" href="Buzzwords.html">99 Buckets</a>
 </div>
   
 <div class="floatright" id="drop-menu">
@@ -178,17 +131,9 @@ planet.innerHTML = "Red alert: hit by phaser fire!";
   </ul>
 </div>
 
-<h1>Planets</h1>
-
-<h2>Green Planet</h2>
-<p id="greenplanet">all is well</p>
-<h3>Red Planet</h3>
-<p id="redplanet">Nothing to report</p>
-<h4>Blue Planet</h4>
-<p id="blueplanet">all systems a-Ok</p>
+<h1>Phrase-o-Matic</h1>
 
 <footer>
-  <hr>
 <a id="vLink1"><strong> HTML </strong> Valid! </a> |
 <a id="vLink2"><strong> CSS </strong> Valid! </a>
 </footer>
