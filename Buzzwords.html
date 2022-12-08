@@ -111,7 +111,10 @@ footer>a, footer>a:visited {
 
 </style>
 <script>
-
+function randomChoice(list) {
+  let len = list.length;
+  return list[Math.floor(len * Math.random())];
+}
 function makePhrases() {
   var words1 = ["24/7", "multi-Tier", "30,000 foot", "B-to-B", "win-win"];
   var words2 = ["empowered", "value-added", "oriented", "focused", "aligned"];
