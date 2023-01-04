@@ -43,8 +43,19 @@ window.onload = init;
   <input type="button" id="addButton" value="Add Song">
 </form>
 <ul id="playlist">
-  
+
 </ul>
+
+<script>
+  window.onload = init;
+  function init() {
+    var button = document.getElementById("addButton");
+    button.onclick = handleButtonClick;
+  }
+  function handleButtonClick() {
+    alert("Button was clicked!");
+  }
+</script>
 
 <footer>
 <a id="vLink1"><strong> HTML </strong> Valid! </a> |
