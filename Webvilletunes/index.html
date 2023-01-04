@@ -3,6 +3,8 @@
 <head>
 <meta charset="utf-8">
 <title>Webvilletunes</title>
+<script src="playlist.js"></script>
+<link rel="stlyesheet" href="playlist.css">
 <style>
 h1, title {
     text-align: center;
@@ -35,6 +37,14 @@ window.onload = init;
 </head>
 <body>
 <h1>Webville Tunes</h1>
+
+<form>
+  <input type="text" id="songTextInput" size="40" placeholder="Song name">
+  <input type="button" id="addButton" value="Add Song">
+</form>
+<ul id="playlist">
+  
+</ul>
 
 <footer>
 <a id="vLink1"><strong> HTML </strong> Valid! </a> |
