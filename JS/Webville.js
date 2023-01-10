@@ -12,6 +12,7 @@ document.getElementById("vLink1").setAttribute("href", HTMLvalidLinkStr);
 document.getElementById("vLink2").setAttribute("href", CSSvalidLinkStr);
 }
 window.onload = init;
+
 function handleButtonClick() {
   var textInput = document.getElementById("songTextInput");
   var songName = textInput.value;
