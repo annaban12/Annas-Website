@@ -1,3 +1,4 @@
+
 window.onload = init;
 function init() {
   var button = document.getElementById("addButton");
