@@ -88,13 +88,13 @@ h1, title {
   padding: 2px 5px;
   background: #d8d8d8;
   border-radius: 5px;
-  height: 80px;
-  max-height: 80px;
 }
 
 .sub-menu li:hover {
   border: 3px solid #bababa;
   overflow: visible;
+  height: 80px;
+  max-height: 80px;
 }
 
 .floatright {
