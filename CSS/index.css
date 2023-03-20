@@ -93,8 +93,6 @@ h1, title {
 .sub-menu li:hover {
   border: 3px solid #bababa;
   overflow: visible;
-  height: 80px;
-  max-height: 80px;
 }
 
 .floatright {
