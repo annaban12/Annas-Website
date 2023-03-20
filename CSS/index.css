@@ -48,8 +48,8 @@ h1, title {
   display: block;
   border: 2px solid #a1a1a1;
   padding: 5px;
-  height: 50px;
-  max-height: 50px;
+  height: 20px;
+  max-height: 20px;
   background: #add8e6;
   border-radius: 5px;
   box-shadow: 5px 5px 5px #888888;
