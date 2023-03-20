@@ -58,18 +58,21 @@ h1, title {
   font-size: 85%;
   color: #0000a0;
   z-index: 1;
+  overflow-y: scroll;
 }
 
 #drop-menu:hover {
   border: 3px solid #bababa;
   overflow: visible;
   z-index: 1;
+  overflow-y: scroll;
 }
 
 #drop-menu:hover .sub-menu {
   display: inline-block;
   overflow: visible;
   z-index: 1;
+  overflow-y: scroll;
 }
 
 .sub-menu {
