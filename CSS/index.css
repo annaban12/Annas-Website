@@ -79,6 +79,8 @@ h1, title {
   border-radius: 5px;
   box-shadow: 5px 5px 5px #888888;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+  height: 80px;
+  max-height: 80px;
 }
 
 .sub-menu li {
