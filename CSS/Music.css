@@ -75,6 +75,7 @@ body {
 .menu ul {
   font-size: 10px;
   padding: initial;
+  margin: auto
 }
 
 .menu ul li {
