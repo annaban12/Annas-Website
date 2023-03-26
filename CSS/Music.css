@@ -185,13 +185,6 @@ footer {
   color: #555;
 }
 
-footer hr {
-    margin-bottom: 20px;
-    clear: both;
-    text-align: center;
-    margin-top: 40px;
-}
-
 footer>a, footer>a:visited {
     text-decoration: none;
     color: #555;
