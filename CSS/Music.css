@@ -158,5 +158,12 @@ body {
   font-size: 10px;
   line-height: 1px;
   letter-spacing: 0.5px;
-  color: #e1e1e1
+  color: #e1e1e1;
+  cursor: pointer;
+}
+
+hr {
+  width: 95%;
+  margin-top: 4px !important;
+  margin-bottom: 6px !important;
 }
