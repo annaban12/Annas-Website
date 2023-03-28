@@ -222,10 +222,10 @@ hr {
   float: right;
   font-size: 13px;
   color: #000;
-  border-radius: 75%;
+  border-radius: 50%;
   background-color: #999;
   margin: 15px 13px 0 auto;
-  padding: 9px 11px;
+  padding: 9px 11px auto;
   cursor: pointer;
 }
 
