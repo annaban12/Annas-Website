@@ -219,7 +219,7 @@ hr {
 .play-icon {
   width: 30px;
   height: 30px;
-  float: center;
+  float: right;
   font-size: 13px;
   color: #000;
   border-radius: 50%;
