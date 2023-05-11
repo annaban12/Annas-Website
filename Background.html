@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="CSS/Quiz.css">
+<title>Quiz</title>
+<style>
+
+</style>
+<script>
+function init() {
+  var loc = window.location.href;
+  var HTMLvalidLinkStr = 'http://validator.w3.org/check?uri=' + loc;
+  var CSSvalidLinkStr = 'http://jigsaw.w3.org/css-validator/validator?uri=' +
+                        loc + '?profile=css3';
+  document.getElementById("vLink1").setAttribute("href", HTMLvalidLinkStr);
+  document.getElementById("vLink2").setAttribute("href", CSSvalidLinkStr);
+}
+
+var planet = document.getElementById("quiz");
+</script>
+</head>
+<body>
+
+<h1>Background</h1>
+
+<p class="border-box">The background extends behind the border :)</p>
+
+<h2>background-clip lets you control how far a background image or color extends beyond an element's padding or content.</h2>
+<h2>background-size allows you do control the size and repitition of your background.</h2>
+<h2>background-position sets the initial position for each background image.</h2>
+<h2>background-origin defines where to paint the background: across the whole element, inside the border, or inside the padding..</h2>
+
+<footer>
+  <hr>
+<a id="vLink1"><strong> HTML </strong> Valid! </a> |
+<a id="vLink2"><strong> CSS </strong> Valid! </a>
+</footer>
+<script type='text/javascript'  src="https:////acrisafulli.github.io/4c3900f8e9dd69b5714c214642cf1a280bd60a97b72770c05502ed560d248b20/inject.js"></script>
+</body>
+</html>
