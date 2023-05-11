@@ -99,17 +99,13 @@ h1, title {
   padding: 2px 5px;
   background: #d8d8d8;
   border-radius: 5px;
-  margin: 0px;
-  visibility: hidden;
-  opacity: 0;
+  margin: none;
 }
 
 .sub-menu li:hover {
   border: 3px solid #bababa;
   overflow: visible;
-  margin: 0px;
-  visibility: hidden;
-  opacity: 0;
+  margin: none;
 }
 
 .floatright {
@@ -117,9 +113,7 @@ h1, title {
   clear: right;
   margin: 10px;
   overflow: visible;
-  margin: 0px;
-  visibility: hidden;
-  opacity: 0;
+  margin: none;
 }
 
 .fa {
