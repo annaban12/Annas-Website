@@ -58,6 +58,7 @@ h1, title {
   font-size: 85%;
   color: #0000a0;
   z-index: 1;
+  margin: none;
 }
 
 #drop-menu:hover {
