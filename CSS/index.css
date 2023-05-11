@@ -81,6 +81,7 @@ h1, title {
   border-radius: 5px;
   box-shadow: 5px 5px 5px #888888;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+  margin: none;
 }
 
 .sub-menu li {
@@ -90,11 +91,13 @@ h1, title {
   padding: 2px 5px;
   background: #d8d8d8;
   border-radius: 5px;
+  margin: none;
 }
 
 .sub-menu li:hover {
   border: 3px solid #bababa;
   overflow: visible;
+  margin: none;
 }
 
 .floatright {
@@ -102,6 +105,7 @@ h1, title {
   clear: right;
   margin: 10px;
   overflow: visible;
+  margin: none;
 }
 
 .fa {
